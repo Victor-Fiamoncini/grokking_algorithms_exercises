@@ -1,4 +1,6 @@
-def binary_search(items: list, item_to_search: int) -> int | None:
+def binary_search(items: list[int], item_to_search: int) -> int | None:
+    """Binary search algorithm, Big O execution time: O(log n)"""
+
     low = 0
     high = len(items) - 1
 
@@ -17,7 +19,7 @@ def binary_search(items: list, item_to_search: int) -> int | None:
     return None
 
 
-item = binary_search([1, 3, 5, 7, 9], 3)
+item = binary_search([1, 3, 5, 7, 9], 7)
 
 print(f"Binary search: {item}")
 
