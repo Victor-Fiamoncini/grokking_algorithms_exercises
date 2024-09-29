@@ -13,7 +13,7 @@ def search_smallest(items: list[int]) -> int:
 
 
 def selection_sort(items: list[int]) -> list[int]:
-    """Orders items by search the smallest index on each iteration"""
+    """Orders items by search the smallest index on each iteration, Big O execution time: O(n^2)"""
 
     ordered_items = []
 
