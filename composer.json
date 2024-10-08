@@ -11,6 +11,11 @@
             "Victor\\GrokkingAlgorithmsExercises\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Victor\\GrokkingAlgorithmsExercises\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Victor-Fiamoncini",
