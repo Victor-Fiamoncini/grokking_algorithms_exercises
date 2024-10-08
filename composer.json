@@ -1,0 +1,20 @@
+{
+    "name": "victor/grokking_algorithms_exercises",
+    "description": "Stuff from Grokking Algorithms book",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Victor\\GrokkingAlgorithmsExercises\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor-Fiamoncini",
+            "email": "victor.fiamoncini@gmail.com"
+        }
+    ]
+}
