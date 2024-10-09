@@ -1,6 +1,7 @@
 <?php
 
 use Victor\GrokkingAlgorithmsExercises\BinarySearch;
+use Victor\GrokkingAlgorithmsExercises\Recursion;
 use Victor\GrokkingAlgorithmsExercises\SelectionSort;
 
 $binarySearch = new BinarySearch([1, 3, 5, 7, 9]);
@@ -12,3 +13,9 @@ $selectionSort = new SelectionSort([8, 5, 7, 1, 9, 3]);
 $orderedItems = implode(", ", $selectionSort->execute());
 
 echo "Selection sort ordered items: $orderedItems \n";
+
+$recursion = new Recursion();
+$recursion->countdown(10);
+$factorial = $recursion->factorial(5);
+
+echo "Factorial: $factorial \n";
