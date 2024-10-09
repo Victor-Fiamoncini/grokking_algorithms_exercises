@@ -1,3 +1,3 @@
 #!/bin/sh
 
-vendor/bin/phpunit tests/*
+vendor/bin/phpunit tests
