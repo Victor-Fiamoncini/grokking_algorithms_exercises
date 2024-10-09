@@ -1,6 +1,6 @@
 <?php
 
-namespace Victor\GrokkingAlgorithmsExercises\BinarySearch;
+namespace Victor\GrokkingAlgorithmsExercises;
 
 final class BinarySearch
 {

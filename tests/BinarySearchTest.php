@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Victor\GrokkingAlgorithmsExercises\BinarySearch\BinarySearch;
+use Victor\GrokkingAlgorithmsExercises\BinarySearch;
 
 class BinarySearchTest extends TestCase
 {
