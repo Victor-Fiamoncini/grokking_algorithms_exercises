@@ -5,7 +5,14 @@ Stuff from Grokking Algorithms book
 Tools used:
 
 - PHP v8.3.0
-- PHPUnit v9
+- PHPUnit v9.*
+
+## How to start ⚒️
+
+```bash
+composer install
+sh run_tests.sh
+```
 
 ---
 
