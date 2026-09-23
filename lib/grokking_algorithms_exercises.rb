@@ -1,0 +1,6 @@
+# frozen_string_literal: true
+
+require_relative "grokking_algorithms_exercises/binary_search"
+require_relative "grokking_algorithms_exercises/quick_sort"
+require_relative "grokking_algorithms_exercises/recursive_factorial"
+require_relative "grokking_algorithms_exercises/selection_sort"

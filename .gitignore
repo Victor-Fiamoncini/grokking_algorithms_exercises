@@ -1,22 +1,15 @@
-# Created by https://www.toptal.com/developers/gitignore/api/phpunit
-# Edit at https://www.toptal.com/developers/gitignore?templates=phpunit
+# Bundler
+/.bundle/
+/vendor/bundle/
 
-### PHPUnit ###
-# Covers PHPUnit
-# Reference: https://phpunit.de/
+# RSpec
+/coverage/
+/spec/examples.txt
 
-# Generated files
-.phpunit.result.cache
-.phpunit.cache
+# RuboCop
+/.rubocop_cache/
 
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
+# Gems
+*.gem
 
-# Build data
-/build/
-
-# End of https://www.toptal.com/developers/gitignore/api/phpunit
-
-/vendor/
 /.idea/
